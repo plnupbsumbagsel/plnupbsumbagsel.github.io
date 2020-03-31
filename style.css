@@ -1,0 +1,393 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.container{
+	width:100%;
+	height:100%;
+	background:#42455a;
+}
+/*head*/
+.menu ul {
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li {
+	list-style:none;
+	margin: 0 20px;
+	color:#b2b1b1;
+	cursor:pointer;
+}
+.logo img {
+	margin-top:-10px;
+	margin-right:10px;
+}
+.text {
+	width:113px;
+	position:absolute;
+	top:120px;
+	left:70px;
+	color:#fff;
+	cursor:pointer;
+	font-size:17px;
+	border-bottom:2px solid #19d7f8;
+}
+.active {
+	color:#b2b1b1; !important;
+	text-decoration:none;
+}
+.active:hover {
+	color:#19d7f8;
+}
+.signup-btn {
+	top: 40px;
+	right:80px;
+	position:absolute;
+	text-decoration:none;
+	color:#fff;
+	border: 2px solid  transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.signup-btn span {
+	display:block;
+	padding:5px;
+}
+
+/*content*/
+.benner {
+	width: 80%;
+	height: 70%;
+	left:130px;
+	position:absolute;
+	color:#fff;
+}
+
+/*konten beranda*/
+.app-text {
+	width:50%;
+	float:left;
+}
+.app-text h1{
+	font-size:43px;
+	width: 640px;
+	position:relative;
+	margin-left: 40px;
+}
+.app-text p{
+	width: 500px;
+	font-size:15px;
+	margin: 30px 0 30px 40px;
+	line-height:25px;
+	color:#919191;
+	text-align:justify;
+	text-indent: 20px;
+}
+.app-picture {
+	width:45%;
+	float:right;
+	position:absolute;
+	right:-40px;
+	top:-26px;
+}
+.app-picture img {
+	width: 100%;
+}
+.quick-btn {
+	left:0;
+	bottom:0;
+	position:absolute;
+	background: linear-gradient(to right, #db1bf6,#19d7f8);
+}
+.quick-btn ul {
+	display: inline-flex;
+	margin:17px auto;
+	text-align:center;
+}
+.quick-btn ul li {
+	list-style:none;
+	margin:0 40px;
+	cursor:pointer;
+}
+.quick-btn ul li a{
+	text-decoration:none;
+}
+.quick-btn ul li p{
+	margin-top:5px;
+	font-size: 15px;
+	color:#fff;         
+}
+/*foot*/
+.soial-media {
+	right:40px;
+	bottom:35px;
+	position:absolute;
+}
+.soial-media ul li {
+	list-style:none;
+	margin-top: 20px;
+	text-align:center;
+}
+.hakcipta {
+	position:absolute;
+	right:90px;
+	bottom: 20px;
+	color:#919191;
+	font-size: 15px;
+}
+/*berita*/
+.berita ul {
+	position:absolute;
+	top:140px;
+	left:135px;
+	width:80%;
+	height:70%;
+	background:transparent;
+	margin:0;
+	padding:0;
+}
+.berita ul li {
+	list-style:none;
+	position:relative;
+	width:20%;
+	height:100%;
+	border-right:2px solid #000;
+	float:left;
+	box-sizing:border-box;
+	transition:0.5s;
+	text-align:center;
+	overflow:hidden;
+}
+.berita ul li:nth-child(1){
+	background: url(berita1.jpeg);
+	background-size:cover;
+	background-position:left;
+}
+.berita ul li:nth-child(2){
+	background: url(berita2.jpeg);
+	background-size:cover;
+	background-position:left;
+}
+.berita ul li:nth-child(3){
+	background: url(berita3.jpeg);
+	background-size:cover;
+	background-position:left;
+}
+.berita ul li:nth-child(4){
+	background: url(berita4.jpeg);
+	background-size:cover;
+	background-position:left;
+}
+.berita ul li:nth-child(5){
+	background: url(berita5.jpeg);
+	background-size:cover;
+	background-position:left;
+}
+.berita ul:hover li {
+	width:10%;
+}
+.berita ul li:hover {
+	width:60%;
+}
+.berita ul li .sub-berita {
+	position:absolute;
+	bottom:-200%;
+	left:0;
+	width:100%;
+	background: rgba(0,0,0,.8);
+	box-sizing:border-box;
+	color:#fff;
+	opacity:0;
+}
+.berita ul li:hover .sub-berita {
+	bottom:0;
+	transition:0.5s;
+	transition-delay:0.5s;
+	opacity:1;
+}
+.berita ul li .sub-berita h2 a{
+	text-decoration:none;
+	color:#fff;
+}
+/*kegiatan*/
+.kegiatan {
+	width:800px;
+	height:440px;
+	margin:auto;
+	background:#000;
+	padding:20px 50px;
+	margin-top:100px;
+	position:absolute;
+	top:20px;
+	left:260px;
+}
+.bayangan{
+	width:800px;
+	height:440px;
+	margin:auto;
+	background:#b2b1b1;
+	padding:20px 50px;
+	margin-top:100px;
+	position:absolute;
+	top:5px;
+	left:280px;
+}
+.bayangan2{
+	width:800px;
+	height:440px;
+	margin:auto;
+	background:#000;
+	padding:20px 50px;
+	margin-top:100px;
+	position:absolute;
+	top:-5px;
+	left:295px;
+	border-top:2px solid #19d7f8;
+	border-right:2px solid #19d7f8;
+}
+	
+@keyframes slider{
+	0%{left:0}
+	20%{left:0}
+	25%{left:-100%;}
+	45%{left:-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	95%{left:-300%;}
+	100%{left:-400%;}
+
+}
+@-webkit-keyframes slider{
+	0%{left:0}
+	20%{left:0}
+	25%{left:-100%;}
+	45%{left:-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	95%{left:-300%;}
+	100%{left:-400%;}
+	
+}
+@-moz-keyframes slider{
+	0%{left:0}
+	20%{left:0}
+	25%{left:-100%;}
+	45%{left:-100%;}
+	50%{left:-200%;}
+	70%{left:-200%;}
+	75%{left:-300%;}
+	95%{left:-300%;}
+	100%{left:-400%;}
+	
+}
+.image-animations {
+	overflow:hidden;
+}
+.image-animations figure{
+	position:relative;
+	width:500%;
+	margin:0;
+	left:0;
+	animation:15s slider infinite;
+	-moz-animation:15s slider infinite;
+	-webkit-animation:15s slider infinite;
+}
+.image-animations figure img {
+	width:20%;
+	float:left;
+}
+
+/*kontak*/
+.kontak {
+	margin:0;
+	position:absolute;
+	top:175px;
+	float:left;
+}
+.kontak h1 {
+	position:absolute;
+	top:-55px;
+	left:260px;
+	color:#fff;
+	font-family:sans-serif;
+}
+.latar {
+	position:absolute;
+	top:165px;
+	left:10px;
+	width:1270px;
+	height:360px;
+	background:#000;
+	border-top:3px solid #fff;
+	border-right:3px solid #fff;
+	border-left:3px solid #fff;
+	border-bottom:3px solid #fff;
+}
+/* Videeo */
+.video {
+	position:absolute;
+	top:145px;
+	left:150px;
+	background:linear-gradient(to right, #db1bf6,#19d7f8);
+	width:550px;
+	height:400px;
+}
+.video p{
+	position:absolute;
+	top:15px;
+	left:110px;
+	color:#fff;
+	font-size:20px;
+}
+.center {
+	position:absolute;
+	top:50%;
+	right:25px;
+	transform:translate(-50%,-50%);
+}
+.box{
+	position:relative;
+	width:300px;
+	height:400px;
+	background:transparent;
+	padding:20px;
+	border:1px solid #fff;
+	
+}
+.image{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#262626;
+	z-index:2;
+	transform-origin:left;
+	transition:1s;
+	transform: perspective(2000px) rotateY(0deg);
+}
+.content {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background:#fff;
+	z-index:1;
+	transform-origin:left;
+	transition:1s;
+	transform: perspective(2000px) rotateY(40deg);
+	padding:25px;
+	box-sizing:border-box;
+	text-align:justify;
+}
+.content p {
+	text-indent: 20px;
+}
+.box:hover .image {
+	transform:perspective(2000px) rotateY(-90deg);
+}
+.box:hover .content {
+	transform:perspective(2000px) rotateY(0deg);
+}

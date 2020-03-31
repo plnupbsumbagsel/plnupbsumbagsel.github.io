@@ -1,0 +1,280 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.container{
+	width:100%;
+	height:1500px;
+	background:#42455a;
+}
+/*head*/
+.menu ul {
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li {
+	list-style:none;
+	margin: 0 20px;
+	color:#b2b1b1;
+	cursor:pointer;
+}
+.logo img {
+	margin-top:-10px;
+	margin-right:10px;
+}
+.text {
+	width:113px;
+	position:absolute;
+	top:120px;
+	left:70px;
+	color:#fff;
+	cursor:pointer;
+	font-size:17px;
+	border-bottom:2px solid #19d7f8;
+}
+.active {
+	color:#b2b1b1; !important;
+	text-decoration:none;
+}
+.active:hover {
+	color:#19d7f8;
+}
+.signup-btn {
+	top: 40px;
+	right:80px;
+	position:absolute;
+	text-decoration:none;
+	color:#fff;
+	border: 2px solid  transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	background-clip: content-box,border-box;
+}
+.signup-btn span {
+	display:block;
+	padding:5px;
+}
+.quick-btn {
+	left:0;
+	bottom:-843px;
+	position:absolute;
+	background: linear-gradient(to right, #db1bf6,#19d7f8);
+}
+.quick-btn ul {
+	display: inline-flex;
+	margin:17px auto;
+	text-align:center;
+}
+.quick-btn ul li {
+	list-style:none;
+	margin:0 40px;
+	cursor:pointer;
+}
+.quick-btn ul li a{
+	text-decoration:none;
+}
+.quick-btn ul li p{
+	margin-top:5px;
+	font-size: 15px;
+	color:#fff;         
+}
+/*foot*/
+.soial-media {
+	right:40px;
+	bottom:-800px;
+	position:absolute;
+}
+.soial-media ul li {
+	list-style:none;
+	margin-top: 20px;
+	text-align:center;
+}
+.hakcipta {
+	position:absolute;
+	right:90px;
+	bottom: -820px;
+	color:#919191;
+	font-size: 15px;
+}
+/* isi berita*/
+.isi-berita {
+	position:absolute;
+	left:180px;
+	width: 65%;
+	float:left;
+}
+.isi-berita h1{
+	position:absolute;
+	top:-20px;
+	left:20px;
+	float:left;
+	color:#fff;
+	font-size:auto;
+}
+.isi-berita h2{
+	position:absolute;
+	top:70px;
+	left:20px;
+	font-size:15px;
+	color:#fff;
+}
+.isi-berita h2 a{
+	text-decoration:none;
+	color:#09F;
+}
+.isi-berita h3{
+	position:absolute;
+	top:-40px;
+	left:20px;
+	font-size:15px;
+	color:#fff;
+}
+.isi-berita h3 a{
+	text-decoration:none;
+	color:#09F;
+}
+.isi-berita img {
+	position:absolute;
+	left:20px;
+	top:100px;
+}
+.isi-berita p{
+	position:relative;
+	margin-top:20px;
+	top:500px;
+	left:20px;
+	color:#fff;
+	font-size:15px;
+	text-indent:20px;
+	text-align:justify;
+}
+/* profil*/
+.profil {
+	position:absolute;
+	top:140px;
+	left:150px;
+	float:left;
+	height:auto;
+	width:70%;
+
+}
+.profil h1 {
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+	margin-bottom:30px;
+	margin-top:-15px;
+	text-shadow:5px 5px 20px #0FF;
+}
+
+.profil h2 {
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.profil h4{
+	color:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	margin-top: 10px;
+	margin-left:10px;
+}
+.profil ul{
+	position:absolute;
+	top:490px;
+	left:45px;
+	color:#b2b1b1;
+}
+.profil p{
+	color:#b2b1b1;
+	text-align:justify;
+	position:relative;
+	margin-left:20px;
+	font-size:15px;
+	word-spacing:normal;
+	text-indent: 20px;
+}
+.bayangan {
+	position:absolute;
+	top: 180px;
+	left:180px;
+	width:1000px;
+	height:300px;
+	background:#000;
+	border-top:2px solid #0CF;
+	border-right:2px solid #0CF;
+}
+/* Informsi*/
+.informasi {
+	position:absolute;
+	top:140px;
+	left:150px;
+	float:left;
+	height:auto;
+	width:70%;
+}
+.informasi h1{
+	text-align:center;
+	color:#fff;
+	margin-bottom:20px;
+	margin-top:0px;
+	font-size:23px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow:5px 5px 20px #0FF;
+	text-transform:uppercase;
+}
+.informasi h2 {
+	text-align:left;
+	font-size:14px;
+	color:#fff;
+	margin-top:15px;
+}
+.informasi img {
+	margin-bottom:15px;
+}
+.informasi h2{
+	text-align:left;
+	color:#fff;
+	font-size:17px;
+	text-transform:capitalize;
+	text-decoration:underline solid #0CF;
+}
+.p{
+	text-align:justify;
+	color:#fff;
+	font-size:16px;
+	margin-bottom:20px;
+	text-indent: 20px;
+	text-decoration:none;
+}
+.informasi p{
+	text-align:justify;
+	color:#fff;
+	font-size:15px;
+	margin-left: 20px;
+	margin-top:10px;
+	text-indent: 20px;
+}
+
+/*struktur*/
+.struktur {
+	position:absolute;
+	top:140px;
+	left:250px;
+	height:auto;
+	width:70%;
+}
+.struktur h1 {
+	margin-bottom:15px;
+	color:#fff;
+	font-family: Times New Roman;
+	font-size:25px;
+	border-bottom:1px solid #0CF;
+}
+.struktur img{
+	padding:10px;
+	border-left:1px solid #0CF;
+	
+}
